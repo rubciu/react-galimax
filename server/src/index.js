@@ -20,9 +20,8 @@ const server = new ApolloServer({
   }  
 });
 
-// const MONGO_URI = 'mongodb://ruben:R!ZJjFH%40-bN9P.7@ds347467.mlab.com:47467/galimax-dev';
 const MONGO_URI =
-  "mongodb+srv://ruben:jfMcQHYUE3CH8Ovu@galimax-dev.agwjl.mongodb.net/galimax-dev?retryWrites=true&w=majority";
+  "mongodb+srv://";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
