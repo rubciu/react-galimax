@@ -15,7 +15,7 @@ const server = new ApolloServer({
   resolvers,
   dataSources,
   engine: {
-    apiKey: "service:galimax-dev-ihner:jVWYkFngoEhR0pn8D8XYng",
+    apiKey: "service:",
     schemaTag: "development"
   }  
 });
