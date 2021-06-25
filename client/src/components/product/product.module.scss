@@ -1,0 +1,26 @@
+.product {
+  width: 125px;
+  padding: 8px 16px;
+  border: solid 1px lightgrey;
+  box-shadow: 1px 1px 2px lightgrey;
+
+  p {
+    text-decoration: none !important;
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 10px #ccc;
+  }
+}
+
+.name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}

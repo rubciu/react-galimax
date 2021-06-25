@@ -1,0 +1,26 @@
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  .main {
+    display: flex;
+    .images {
+      display: flex;
+      align-items: flex-start;
+      & > * {
+        display: inline-block;
+      }
+    }
+    .name {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      margin-bottom: 0;
+    }
+    .price {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      margin: 10px 0;
+      color: red;
+    }
+  }
+}

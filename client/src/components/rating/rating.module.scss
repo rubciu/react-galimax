@@ -1,0 +1,31 @@
+@mixin star-fill($color) {
+  content: "\2605";
+  position: absolute;
+  color: $color;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  .stars {
+    // &:not(.readonly) {
+    //   unicode-bidi: bidi-override;
+    //   direction: rtl;
+    //   .star:hover:before,
+    //   .star:hover ~ span:before {
+    //     @include star-fill(gold);
+    //   }
+    // }
+    .star:hover {
+      cursor: pointer;
+    }
+    .star:not(.active):hover {
+      cursor: auto;
+    }
+    .star.active:before {
+      @include star-fill(gold);
+    }
+  }
+  .reviews {
+    margin-left: 5px;
+  }
+}
